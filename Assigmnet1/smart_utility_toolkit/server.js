@@ -22,3 +22,7 @@ const server = https.createServer((req, res)=> {
         res.end('404 Not Found: The requested resource was not found on this server.');
     }
 })
+
+server.listen(PORT, () => {
+  console.log(`Server running at http://localhost:${PORT}/`);
+});
