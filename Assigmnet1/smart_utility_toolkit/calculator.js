@@ -8,3 +8,5 @@ const num2 = parseFloat(process.argv[4]);
 console.log("operation:", operation);
 console.log("First Number:", num1);
 console.log("Second Number:", num2);
+
+switch (operation) {}
