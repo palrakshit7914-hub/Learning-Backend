@@ -17,5 +17,9 @@ switch (operation) {
     case "sub":
         console.log(`Result: ${num1-num2}`);
         break;
+
+    case "mul":
+        console.log(`Result: ${num1 * num2}`);
+        break;
 }
 
