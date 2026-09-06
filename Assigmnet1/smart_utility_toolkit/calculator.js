@@ -9,4 +9,8 @@ console.log("operation:", operation);
 console.log("First Number:", num1);
 console.log("Second Number:", num2);
 
-switch (operation) {}
+switch (operation) {
+    case "add":
+        console.log(`Result: ${num1 + num2}`);
+        break;
+}
