@@ -2,7 +2,7 @@ console.log("Setup successful!", process.argv);
 
 const operation = process.argv[2];
 
-const num1 = (process.argv[3]);
+const num1 = parseFloat(process.argv[3]);
 const num2 = (process.argv[4]);
 
 console.log("operation:", operation);
@@ -13,4 +13,9 @@ switch (operation) {
     case "add":
         console.log(`Result: ${num1 + num2}`);
         break;
+
+    case "sub":
+        console.log(`Result: ${num1-num2}`);
+        break;
 }
+
