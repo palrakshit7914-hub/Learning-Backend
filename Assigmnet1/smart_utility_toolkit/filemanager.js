@@ -29,13 +29,13 @@ fs.writeFile(filePath, 'Initial content for Smart Utility Toolkit.\n', (err) => 
       console.log("3. File updated (appended) successfully!");
 
       
-      fs.unlink(filePath, (err) => {
-        if (err) {
-          console.error("Error deleting file:", err);
-          return;
-        }
-        console.log("4. File deleted successfully!");
-      });
+    //   fs.unlink(filePath, (err) => {
+    //     if (err) {
+    //       console.error("Error deleting file:", err);
+    //       return;
+    //     }
+    //     console.log("4. File deleted successfully!");
+    //   });
     });
   });
 });
